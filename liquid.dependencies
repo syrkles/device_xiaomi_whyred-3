@@ -1,14 +1,14 @@
 [
   {
-    "remote":      "github",
-    "repository":  "mdeejay/kernel_xiaomi_whyred",
-    "target_path": "kernel/xiaomi/whyred",
-    "branch":      "aligot-release"
+    "repository": "akhilnarang/whyred",
+    "target_path": "kernel/xiaomi/sdm660"
+    "branch":"oreo-mr1"
+    "remote":"github"
   },
   {
-    "remote":      "github",
-    "repository":  "mdeejay/vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
-    "branch":      "aligot-release"
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-15.1",
+    "remote": "github"
   }
 ]
