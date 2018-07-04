@@ -35,9 +35,10 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.13.0.OEIMIFA release-keys" \
-    TARGET_DEVICE="whyred"
+    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.14.0.OEIMIFA release-keys" \
+    TARGET_DEVICE="whyred" \
+    DEVICE_MAINTAINERS="SyRkLeS420"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.13.0.OEIMIFA:user/release-keys
+BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.14.0.OEIMIFA:user/release-keys
 
