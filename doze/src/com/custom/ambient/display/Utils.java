@@ -48,17 +48,6 @@ public final class Utils {
         context.stopService(new Intent(context, DozeService.class));
     }
 
-    protected static boolean getProxCheckBeforePulse(Context context) {
-        try {
-            Context con = context.createPackageContext("com.android.systemui", 0);
-            int id = con.getResources().getIdentifier("doze_proximity_check_before_pulse",
-                    "bool", "com.android.systemui");
-            return con.getResources().getBoolean(id);
-        } catch (PackageManager.NameNotFoundException e) {
-            return false;
-        }
-    }
-
     protected static boolean isDozeEnabled(Context context) {
         return Settings.Secure.getInt(context.getContentResolver(),
                 Settings.Secure.DOZE_ENABLED, 1) != 0;
