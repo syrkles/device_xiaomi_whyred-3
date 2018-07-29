@@ -1,0 +1,6 @@
+#lcd density
+ro.sf.lcd_density=480
+
+#Camera esi
+persist.camera.eis.enable=1
+
