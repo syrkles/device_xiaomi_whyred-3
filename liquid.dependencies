@@ -10,5 +10,15 @@
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-15.1",
     "remote": "github"
-  }
+  },
+  {
+    "repository": "taranhora/vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "branch": "master",
+    "remote": "github"
+  },
+  {
+    "repository":  "vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+  { 
 ]
