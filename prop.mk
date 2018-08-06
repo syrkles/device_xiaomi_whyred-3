@@ -132,6 +132,8 @@ persist.ov13855_sunny.light.lux=370 \
 persist.s5k3l8_ofilm.low.lux=379 \
 persist.s5k3l8_ofilm.light.lux=367 \
 vidc.enc.dcvs.extra-buff-count=2
+
+#camera2 api
 persist.camera.HAL3.enabled=1
 
 # Display
