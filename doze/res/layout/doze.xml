@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-**
-** Copyright 2015 The Android Open Source Project
-**           2017 The LineageOS Project
+** Copyright 2014, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -18,9 +16,13 @@
 ** limitations under the License.
 */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
-	
-</resources>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
+
+    <include layout="@layout/switch_bar" />
+
+</LinearLayout>
+
